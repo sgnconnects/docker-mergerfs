@@ -1,3 +1,5 @@
+git clone https://github.com/ironicbadger/docker-mergerfs.git && cd docker-mergerfs
+
 #!/bin/bash
 APP_NAME="mergerfs"
 IMAGE_TAG="$APP_NAME-build"
