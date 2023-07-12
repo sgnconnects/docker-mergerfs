@@ -14,3 +14,6 @@ ID=$(docker create $IMAGE_TAG)
 docker cp $ID:/build/ .
 docker rm -v $ID
 docker rmi $IMAGE_TAG
+
+
+dpkg -i *.deb
